@@ -105,13 +105,14 @@ a {
 }
 
 body {
-  background: #2b3844;
+  background-color: #202C36;
 }
 
 header {
   width: 100%;
   height: 80px;
-  margin-top: 24px;
+  padding-top: 24px;
+  background: #2b3844;
 }
 header .header-info {
   display: flex;
@@ -133,4 +134,49 @@ header .header-info .header-logo a {
   font-weight: 600;
   font-size: 16px;
   color: #fff;
+}
+
+main {
+  width: 100%;
+  background-color: #202C36;
+}
+main .main-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+main .main-info .input-search {
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  width: 480px;
+  height: 56px;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+  background: #2b3844;
+  border-radius: 5px;
+}
+main .main-info .input-filter {
+  width: 200px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+  background: #2b3844;
+}
+main .regions {
+  margin-top: 48px;
+}
+main .regions .region {
+  border-radius: 5px;
+  width: 267px;
+  height: 336px;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.03);
+  background: #2b3844;
+}
+main .regions .region img {
+  width: 267px;
+  height: 160px;
 }/*# sourceMappingURL=style.css.map */
