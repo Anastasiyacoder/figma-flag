@@ -96,4 +96,41 @@ body, input, textarea, button {
 
 a {
   color: inherit;
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background: #2b3844;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  margin-top: 24px;
+}
+header .header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-info .header-question h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #fff;
+}
+header .header-info .header-logo {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+header .header-info .header-logo a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

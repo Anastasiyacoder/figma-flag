@@ -1,1 +1,36 @@
 @import "./base";
+
+body{
+    // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    background: #2b3844;
+}
+header{
+    width: 100%;
+    height: 80px;
+    margin-top: 24px ;
+  
+
+    .header-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .header-question{
+            h1{
+                font-weight: 800;
+                font-size: 24px;
+                color: #fff;
+            }
+        }
+        .header-logo{
+            display: flex;
+            align-items:center;
+            column-gap: 8px;
+            a{
+                font-weight: 600;
+                font-size: 16px;
+                color: #fff;
+            }
+        } 
+    }
+}
