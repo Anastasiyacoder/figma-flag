@@ -69,6 +69,10 @@ main{
 
 .regions{
     margin-top: 48px;
+   display: flex;
+   column-gap: 70px;
+   row-gap: 75px;
+   flex-wrap: wrap;
     .region{
         
         border-radius: 5px;
@@ -77,9 +81,32 @@ main{
         box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.03);
         background: #2b3844;
            
-        img{
-            width: 267px;
-           height: 160px;
+       
+        .region-info{
+            margin-left: 24px;
+            h2{
+                font-weight: 800;
+                font-size: 18px;
+                line-height: 144%;
+                color: #fff;
+                padding-top: 24px;
+                padding-bottom: 16px;
+            }
+            
+            .population{
+                display: flex;
+                flex-direction: column;
+                row-gap: 8px;
+                h3{
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 114%;
+                    color: #fff;
+                }
+                span{
+                    font-weight: 300;
+                }
+            }
         }
     }
 }
