@@ -99,12 +99,14 @@ a {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1310px;
+  padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
 body {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
   background-color: #202C36;
 }
 
@@ -143,6 +145,8 @@ main {
 main .main-info {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 40px;
   margin-top: 48px;
 }
 main .main-info .input-search {
@@ -162,12 +166,22 @@ main .main-info .input-filter {
   height: 56px;
   display: flex;
   align-items: center;
+  -moz-column-gap: 47px;
+       column-gap: 47px;
   border-radius: 5px;
   box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
   background: #2b3844;
 }
+main .main-info .input-filter .type-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fff;
+  padding-left: 24px;
+}
 main .regions {
   margin-top: 48px;
+  margin-bottom: 45px;
   display: flex;
   -moz-column-gap: 70px;
        column-gap: 70px;
@@ -205,4 +219,15 @@ main .regions .region .region-info .population h3 {
 }
 main .regions .region .region-info .population span {
   font-weight: 300;
+}
+
+@media (max-width: 970px) {
+  .regions {
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  header .header-question h1 {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=style.css.map */
